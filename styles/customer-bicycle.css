@@ -1,0 +1,26 @@
+#right-wheel, #left-wheel {
+    animation: wheel 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.style-bicycle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    /* width: 50%; */
+    left: 50%;
+    transform: translate(-50%, 80%);
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 60%;
+}
