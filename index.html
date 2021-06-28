@@ -13,6 +13,18 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css" />
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            var scroll_custom = document.scrollingElement.scrollTop + window.innerHeight
+            if (scroll_custom < document.body.scrollHeight) {
+                document.getElementById("btn-download-mobile").style.display = "block";
+            } else {
+                document.getElementById("btn-download-mobile").style.display = "none";
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -558,6 +570,11 @@
                 </div>
             </div>
         </div>
+        <a href="assets/pdf/resume.pdf" download>
+            <button id="btn-download-mobile">
+                DOWNLOAD RESUME
+            </button>
+        </a>
         <footer>
             <div class="text-footer">Copyright ©2021 All rights reserved | This website is made with by Kiattisak
                 Sonthong</div>
