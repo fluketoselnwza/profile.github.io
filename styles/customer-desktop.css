@@ -1,8 +1,12 @@
-.container {
+.container-desktop {
   display: block;
   width: 100%;
   height: 100%;
   /* background-color: rgba(246, 248, 247, 1); */
+}
+
+.container-mobile {
+    display: none;
 }
 
 /*  section introduce */
@@ -17,6 +21,12 @@
   object-fit: contain;
   width: 60%;
   height: 100%;
+}
+
+.name {
+    font-size: 2vw;
+    line-height: 1;
+    font-weight: 700;
 }
 
 .contact {
@@ -553,6 +563,7 @@
     color: #FFFFFF;
     text-align: center;
     font-weight: 500;
+    font-size: 0.8vw;
 }
 
 

@@ -1,0 +1,283 @@
+@media screen and (max-width: 480px) {
+  .container-desktop {
+    display: none;
+  }
+
+  .container-mobile {
+    display: block;
+    /* background-color: rgba(106, 217, 191, 0.6); */
+    background-color: #ffffff;
+  }
+
+  /* section introduce */
+  .section-introduce-mobile {
+    display: block;
+    align-items: flex-start;
+    /* height: 50%; */
+    /* background-color: #f25c05; */
+    padding: 20px;
+    /* background-color: #6ad9bf; */
+  }
+
+  .img-profile-mobile {
+    object-fit: contain;
+    width: 80%;
+    background-color: #ffffff;
+    /* height: 200px; */
+    /* background-color: blueviolet; */
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-30%, -30%); */
+  }
+
+  .box-introduce-mobile {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-10%, 150%);
+    /* border: 2px solid #04d9b2; */
+  }
+
+  .hi {
+    color: #f25c05;
+    font-size: 12px;
+  }
+
+  .name {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+  .career {
+    font-size: 12px;
+    color: #04d9b2;
+  }
+  .contact {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  /* section about */
+  .section-about-mobile {
+    /* background-color: #f25c05; */
+    background-image: linear-gradient(
+      #00c9ff,
+      #04d9b2,
+      #26d9b6,
+      #48d9bb,
+      #6ad9bf
+    );
+    height: 40%;
+  }
+
+  .title-about-style .title-about-text {
+    /* background-color: #fff; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    /* margin: 0 auto; */
+    padding: 10px;
+  }
+
+  .detail-about-style .detail-about-text {
+    background-color: #ffffff;
+    width: 70%;
+    font-size: 12px;
+    padding: 20px;
+    color: black;
+    mix-blend-mode: screen;
+    transform: translate(-50%, 50%);
+  }
+
+  /* section tech */
+  .section-tech-mobile {
+    background-color: #6ad9bf;
+    /* height: 100%; */
+  }
+  .title-tech-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .box-progress {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .style-title-progress {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  #progress {
+    background: #ffffff;
+    border-radius: 2vw;
+    height: 2vw;
+    width: 100%;
+    padding: 3px;
+  }
+
+  #progress > div {
+    content: "";
+    display: block;
+    background: #f28705;
+    /* width: attr(value); */
+    height: 100%;
+    border-radius: 2vw;
+  }
+
+  /* section education */
+  .section-education-mobile {
+    background-color: #6ad9bf;
+    /* background-color: #f28705; */
+    /* height: 70%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title-education-style {
+    display: block;
+    padding: 0%;
+  }
+
+  .title-education-text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .box-education-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .text-years {
+    font-size: 14px;
+  }
+
+  .text-degree {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .text-school {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  /* section work */
+  .section-work-mobile {
+    padding-top: 20px;
+  }
+
+  .title-work-text {
+    /* position: absolute; */
+    /* top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%); */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #04d9b2;
+  }
+
+  .box-work-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #04d9b2;
+    color: #ffffff;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .text-career {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .text-company {
+    font-size: 14px;
+  }
+
+  .text-todo {
+    font-size: 14px;
+  }
+
+  /* section portfolio */
+  .section-portfolio-mobile {
+    padding: 20px;
+  }
+
+  .title-portfolio-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f25c05;
+    text-align: center;
+  }
+
+  .img-portfolio-mobile {
+    width: 70%;
+    height: 30%;
+    object-fit: contain;
+    /* background-color: #26d9b6; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box-portfolio-mobile {
+    /* background-color: #26d9b6; */
+    padding: 10px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-portfolio-title {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .icon-portfolio {
+    font-size: 14px;
+  }
+
+  .text-portfolio-detail {
+    font-size: 10px;
+  }
+
+  /* footer */
+  .text-footer {
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 20px;
+    /* height: 40px; */
+  }
+}
